@@ -1,0 +1,36 @@
+/* Synotech surface theme — GENERATED from palette.json, do not hand-edit.
+ * Only link/accent tokens are remapped; everything else stays stock. */
+:root {
+  --link-color: #03d28c;
+  --link-hover-color: #02b87b;
+  --brand-color: #03d28c;
+  --brand-hover-color: #02b87b;
+}
+
+a, .link, .link-color {
+  color: var(--link-color);
+}
+a:hover, .link:hover {
+  color: var(--link-hover-color);
+}
+
+input[type="checkbox"], input[type="radio"] {
+  accent-color: var(--brand-color);
+}
+
+:focus-visible {
+  outline-color: var(--brand-color);
+}
+
+::selection {
+  background: rgba(3, 210, 140, 0.22);
+}
+
+.btn-brand, .btn-primary.btn-brand {
+  background-color: var(--brand-color);
+  border-color: var(--brand-color);
+}
+.btn-brand:hover {
+  background-color: var(--brand-hover-color);
+  border-color: var(--brand-hover-color);
+}

@@ -1,0 +1,4 @@
+include synotech_theme/public/css/*.css
+include palette.json
+include README.md license.txt
+global-exclude __pycache__ *.pyc

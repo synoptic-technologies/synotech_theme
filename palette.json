@@ -1,0 +1,6 @@
+{
+  "_comment": "Single source of truth for the Synotech surface theme. Edit values here, run scripts/generate_css.py, commit both. No hex lives anywhere else; no hostnames, secrets, or per-site values anywhere in this repo.",
+  "brand": "#03d28c",
+  "brand_hover_darken_pct": 12,
+  "selection_alpha": 0.22
+}
