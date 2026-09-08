@@ -1,6 +1,6 @@
 [build-system]
-requires = ["flit_core >=3.2,<4"]
-build-backend = "flit_core.buildapi"
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "synotech_theme"
@@ -13,3 +13,7 @@ dependencies = []
 
 [project.urls]
 Homepage = "https://github.com/synoptic-technologies/synotech_theme"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["synotech_theme*"]
